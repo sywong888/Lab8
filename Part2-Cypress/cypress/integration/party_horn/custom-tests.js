@@ -37,7 +37,7 @@ describe('Party Horn Tests', () => {
     });
   });
 
-  it('Image changes when part horn radio button selected', () => {
+  it('Image changes when party horn radio button selected', () => {
     cy.get('#radio-party-horn')
     .check();
 
@@ -47,7 +47,7 @@ describe('Party Horn Tests', () => {
     });
   });
 
-  it('Sound changes when part horn radio button selected', () => {
+  it('Sound changes when party horn radio button selected', () => {
     cy.get('#radio-party-horn')
     .check();
 
